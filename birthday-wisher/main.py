@@ -6,8 +6,8 @@ import smtplib
 # 1. Update the birthdays.csv
 birthdays = pd.read_csv('birthdays.csv')
 celebrants = []
-my_email = "oluwafemiakinode909@gmail.com"
-password = "whrhbmyadrxqapie"
+my_email = "YOUR EMAIL"
+password = "EMAIL PASSWORD"
 def pick_letter():
     num = random.randint(1,3)
     with open(f'letter_templates/letter_{num}.txt') as letters:
